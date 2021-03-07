@@ -3,7 +3,10 @@
 }
 * {
   font-family: "Roboto", sans-serif;
+}
+body{
   margin: 0!important;
+
 }
 .contact-item > a {
   text-decoration: none;
