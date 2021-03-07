@@ -57,7 +57,7 @@ h4{
 
 #side-bar {
   margin-right: 10px;
-  width: 15%;
+  width: fit-content;
   background-color: var(--primary-color);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
