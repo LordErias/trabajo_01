@@ -1,19 +1,27 @@
-.contact-item {
-  color: white;
+﻿:root{
+  --primary-color: #0d101e;
+  --secundary-color: #760EE3;
+  --warn-color: ##E3310E;
 }
 * {
   font-family: "Roboto", sans-serif;
 }
 body{
   margin: 0!important;
-
+  
+}
+.contact-item {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .contact-item > a {
   text-decoration: none;
   color: white;
 }
 .contact-item > img {
-  width: 100%;
+  width: 80%;
 }
 .main-container {
   display: flex;
@@ -22,7 +30,7 @@ body{
 #side-bar {
   margin-right: 10px;
   width: 10%;
-  background-color: #0d101e;
+  background-color: var(--primary-color);
   padding: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
